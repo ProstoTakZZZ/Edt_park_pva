@@ -19,6 +19,7 @@
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
   <resources uuid="e0cdf854-474f-47aa-ad39-43b2c2c5d8b3">
     <name>Цена</name>
     <synonym>
