@@ -7,21 +7,15 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>СуммаОборот</dataPath>
-			<field>СуммаОборот</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ВидАттракциона</dataPath>
 			<field>ВидАттракциона</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Вид аттракциона</v8:content>
-				</v8:item>
-			</title>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаОборот</dataPath>
+			<field>СуммаОборот</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
@@ -48,6 +42,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаНачала</expression>
 	</parameter>
@@ -65,8 +60,9 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
-		<expression>&amp;Период.ДатаОкоДатаОкончания</expression>
+		<expression>&amp;Период.ДатаОкончания</expression>
 	</parameter>
 	<parameter>
 		<name>Период</name>
@@ -98,18 +94,20 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
-					<dcsset:userSettingID>1bd9f856-ec97-42c1-b2d6-89172b8684a6</dcsset:userSettingID>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>05195bea-2b8b-48e5-b18e-ad51cb73dea9</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>КонецПериода</dcscor:parameter>
-					<dcsset:userSettingID>65d444ee-04d1-42e1-a69f-e6bba72aea1f</dcsset:userSettingID>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>b5228c54-d704-4596-aa2b-9b08ddeb5638</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>5513dc00-bec5-43e7-bd5b-3e69bd5d1970</dcsset:userSettingID>
+					<dcsset:userSettingID>11f0c844-19e0-499c-aaa3-c5846b2ea445</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

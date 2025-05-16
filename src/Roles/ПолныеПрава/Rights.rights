@@ -4,13 +4,6 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Document.ПосещениеАттракциона</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Аттракционы</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -34,16 +27,23 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПродажаБилета</name>
+		<name>Document.ПродажаБилета.Command.Билет</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПосещениеАттракциона</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПродажаБилета.Command.Билет</name>
+		<name>Document.ПродажаБилета</name>
 		<right>
-			<name>View</name>
+			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>

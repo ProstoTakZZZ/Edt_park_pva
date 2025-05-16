@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48e87d4b-08aa-4d42-ac44-1bb8380c75a1">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45b1c306-8dc5-45e0-867d-7701ca3851e9">
   <producedTypes>
-    <objectType typeId="94747abe-2a9e-4394-97bc-81b5c9b86397" valueTypeId="996196f2-ab15-40a7-88fd-fe36c4291c36"/>
-    <refType typeId="246dac5d-f14b-4812-90c5-514ecf2003dc" valueTypeId="a442f086-d43c-4d31-858e-3c496928e7f6"/>
-    <selectionType typeId="d1a75409-8fef-496b-a976-e96e8b03ec3f" valueTypeId="a0923229-5898-4b0c-9150-d512c37c6a99"/>
-    <listType typeId="ea00a82f-493d-4e7b-b17c-8104d673988d" valueTypeId="428c94ea-95e1-4d81-81e6-52cc5c22bfd6"/>
-    <managerType typeId="9319b395-eaa8-4738-857a-3327435d5f81" valueTypeId="74acf511-e53b-4f50-a8c0-2dc7b9816a78"/>
+    <objectType typeId="a33de43c-9e4d-4434-ae1a-9c4da6f6bb3b" valueTypeId="056dffcf-ea44-4b82-9755-29b3e03e2c2b"/>
+    <refType typeId="e7671a09-9466-4718-a129-d81c664814a4" valueTypeId="a8c0bc01-aa60-4988-9885-06d7d4e76a3b"/>
+    <selectionType typeId="b16763f7-e31f-4917-923d-48ad8228c2fa" valueTypeId="b3b88230-0d69-45ed-8445-5da009cd237c"/>
+    <listType typeId="915d1f01-4c44-46ff-bb2d-a4bce28c0349" valueTypeId="491a072c-da35-4a6d-bdcf-ab8a806acd40"/>
+    <managerType typeId="81cbc357-96db-4283-898e-d2211bef7671" valueTypeId="5271dc00-3d83-46e4-b42a-b3e9fd53e91f"/>
   </producedTypes>
-  <name>УстановкаЦен</name>
+  <name>УстановкаЦенНоменклатуры</name>
   <synonym>
     <key>ru</key>
-    <value>Установка цен</value>
+    <value>Установка цен номенклатуры</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.УстановкаЦен.StandardAttribute.Number</inputByString>
+  <inputByString>Document.УстановкаЦенНоменклатуры.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -27,7 +27,7 @@
   <registerRecords>InformationRegister.ЦеныНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="d63ea9b1-868a-4cd8-bd4a-c79d1ac38aa7">
+  <attributes uuid="c1399c87-678b-4c65-af60-1369633c2146">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -43,17 +43,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="7402890f-cd03-4e90-86b4-e09bb17d28ee">
+  <tabularSections uuid="3ab6832d-6c5b-420f-813d-1dbcfdfbbe68">
     <producedTypes>
-      <objectType typeId="79f866a9-b103-448e-a073-dadded91388b" valueTypeId="d1504c53-1681-4ed5-b06f-ac15e2405168"/>
-      <rowType typeId="51a7df40-85d5-4f5e-8c80-6fd9210c2b13" valueTypeId="44cb61d6-e9b5-4b96-8200-4064286428cf"/>
+      <objectType typeId="a48d348f-56c9-4614-a49f-08b4a76dcef8" valueTypeId="434b97ff-6401-4337-870a-9004a259f33c"/>
+      <rowType typeId="6656750e-9477-474d-b7f2-52d0988b9e86" valueTypeId="4302079c-6c80-4aa6-908c-e98ff8d12e2d"/>
     </producedTypes>
     <name>ЦеныНоменклатуры</name>
     <synonym>
       <key>ru</key>
       <value>Цены номенклатуры</value>
     </synonym>
-    <attributes uuid="0d06195a-02c5-4b2b-8112-36b66e97895e">
+    <attributes uuid="5a531a30-f786-42a0-8ceb-b2a73b4c5c0b">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -67,7 +67,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="721c39e3-56ed-413b-90fd-e0e446602837">
+    <attributes uuid="c9204512-9406-4d28-92ed-2eeb71c31db6">
       <name>Цена</name>
       <synonym>
         <key>ru</key>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1d11cb1-29d4-4eda-b3ac-330acbe91083">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d088cbdd-0748-4114-a9dc-a4c42ce944f7">
   <producedTypes>
-    <selectionType typeId="efb8f64c-f927-42bf-ab27-73fca903fbe2" valueTypeId="f8a04499-4eb2-4291-a36d-ff28b6159802"/>
-    <listType typeId="00082bff-f140-4b31-9dbd-0b3205e869ec" valueTypeId="3a932213-4b91-4ad2-904d-d3777b05cfcf"/>
-    <managerType typeId="c2b19070-0938-4454-97fa-fa5dcbf6549e" valueTypeId="80555b9e-36b0-40ad-a33e-16dbd99a7b9d"/>
-    <recordSetType typeId="0876ca72-72d0-46f3-96f3-93976e2f6bc7" valueTypeId="81929a43-21a1-40ae-9ebe-f75fc834115a"/>
-    <recordKeyType typeId="2d7363a6-ad8e-48e1-aa5f-1d62d39c0507" valueTypeId="ecdae183-7114-4bb2-84e2-a07ff22bd0f6"/>
-    <recordType typeId="a88c949e-67f9-436e-900a-1dd292da3264" valueTypeId="6b15259c-d975-4d39-adee-582fb9c281af"/>
+    <selectionType typeId="92db3d39-bbde-4ab8-a015-39ac69ce7af6" valueTypeId="9516c08b-8372-4f23-994c-5fd2e9d8a904"/>
+    <listType typeId="2838cb98-038d-47e1-9d6a-8536c6a255bd" valueTypeId="364bc023-fa0a-4d99-9062-87e51b174010"/>
+    <managerType typeId="53157a31-d936-4d29-b80b-0d5bbe5b24f6" valueTypeId="5e8a3803-a8fa-4bd4-8185-4075602f4b3d"/>
+    <recordSetType typeId="fd71c4f9-5f5b-4d04-9bdb-f0bc4e877cf1" valueTypeId="e45fb605-38a3-4b3c-aeee-135c7d66e9c2"/>
+    <recordKeyType typeId="a6b965ec-ae7e-44ec-b038-6a8160dfa73f" valueTypeId="957ce5a2-109f-463c-bf32-1dea364b238d"/>
+    <recordType typeId="c4333a7d-172d-4f4c-a7b3-5eaa0b6355fe" valueTypeId="7291bb15-5fb1-4948-80e8-8c2158712eee"/>
   </producedTypes>
   <name>Продажи</name>
   <synonym>
@@ -17,7 +17,7 @@
   <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="7fc155b5-271a-43c7-b267-8d407192874c">
+  <resources uuid="f21af658-1205-4863-95b4-47ab98448d87">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -35,7 +35,21 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="090da195-dc2c-4e32-b910-5d782afde419">
+  <dimensions uuid="08c85817-f4e4-4c76-a94e-63a4deb932f9">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="aeb5bcb1-7d96-4b70-ac75-d63eafd71de4">
     <name>ВидАттракциона</name>
     <synonym>
       <key>ru</key>
@@ -49,14 +63,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="b0419d6d-64e2-4a9a-8608-0ddc438cb445">
-    <name>Клиент</name>
+  <dimensions uuid="b4030a25-c9ca-4474-b031-b62be801729e">
+    <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
-      <value>Клиент</value>
+      <value>Номенклатура</value>
     </synonym>
     <type>
-      <types>CatalogRef.Клиенты</types>
+      <types>CatalogRef.Номенклатура</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

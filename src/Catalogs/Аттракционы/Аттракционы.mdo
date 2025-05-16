@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80ac4017-4080-4d58-8982-f2950802ea00">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="242c4dee-c61e-4275-9629-626a1948c77e">
   <producedTypes>
-    <objectType typeId="9be64e80-9c76-4c77-9587-ba3331bd3068" valueTypeId="8ffc3955-7d4a-41ed-80f6-dec27cd564e5"/>
-    <refType typeId="6b1eaf63-c51a-40df-948b-c83738500774" valueTypeId="4753dfdc-f76e-4334-af75-a3903c48d7d8"/>
-    <selectionType typeId="4bc038db-e5b5-4e6f-a9a9-74015298f9e5" valueTypeId="822606ae-902f-41dc-9340-2d70f33a2b00"/>
-    <listType typeId="2da8ac61-b7f6-41e7-b970-fd0643c529c7" valueTypeId="0b926292-d3c1-4079-9aec-829951854438"/>
-    <managerType typeId="4582c766-ac92-4601-9eba-e2a0a3dba5e8" valueTypeId="2db9aff9-243b-4cdd-b644-ac3ae6e38a97"/>
+    <objectType typeId="106483dd-01ca-49bd-95f5-90f8646df0e8" valueTypeId="14d36339-dd6b-4934-bba1-d7e420d0fe00"/>
+    <refType typeId="37d2126a-2bac-40dc-8181-294df9f1dbff" valueTypeId="a55e566f-a808-40e5-bbe5-93d66793a580"/>
+    <selectionType typeId="dd57cc09-c453-4325-802f-35caea414532" valueTypeId="056441d1-4ad6-4245-a983-00405e045d3d"/>
+    <listType typeId="b1842143-c113-4b5a-b1c1-bccc4528f1c9" valueTypeId="53dfb3fc-55c5-4b97-9888-3f9e56c9dd26"/>
+    <managerType typeId="258101f7-8efe-49b6-8c1e-b59af91aca73" valueTypeId="3e142d83-971a-422e-8f00-1cca8556bdad"/>
   </producedTypes>
   <name>Аттракционы</name>
   <synonym>
@@ -34,7 +34,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="b1276ab1-c7c5-40b7-8be8-f36e0fb80aa1">
+  <attributes uuid="2d118db4-a33c-4f7f-9635-75cb0ea2c5ec">
     <name>ВидАттракциона</name>
     <synonym>
       <key>ru</key>

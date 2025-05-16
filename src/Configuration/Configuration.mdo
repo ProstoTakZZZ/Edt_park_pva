@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cae7a62-6bb0-40b5-8204-eccc9751f75a">
-  <name>Edt_park_pva</name>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e63b2fc-0010-4134-b53a-4a40e25f4a8f">
+  <name>УправлениеПаркомАттракционов</name>
   <synonym>
     <key>ru</key>
-    <value>Edt park pva</value>
+    <value>Управление парком аттракционов</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d36db427-8460-4dee-b36c-c5cbb7060497"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6195b7a9-3861-47ca-aea1-4a9e42c592ea"/>
@@ -12,7 +12,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b7925182-1c2c-4d06-be99-70452c7e3b4b"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f9c95a54-5dd0-433b-9ed2-2b6d7998e031"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9500fe4e-6b55-4548-bbdc-590c8cd3bada"/>
-  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.25</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -30,14 +30,14 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
-    <value>pva</value>
+    <value>Фирма 1С</value>
   </copyright>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.24</compatibilityMode>
-  <languages uuid="424dad25-a2a5-4681-a3e6-0904653af5a3">
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="733239ed-f68b-44a9-b468-923b834a5953">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
@@ -49,15 +49,14 @@
   <roles>Role.ОператорАттракциона</roles>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.НомераТелефоновКлиентСервер</commonModules>
-  <constants>Constant.МаксимальнаяДоляОлптаыБаллами</constants>
+  <constants>Constant.МаксимальнаяДоляОплатыБаллами</constants>
   <catalogs>Catalog.Аттракционы</catalogs>
   <catalogs>Catalog.ВидыАттракционов</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <documents>Document.Документ</documents>
   <documents>Document.ПосещениеАттракциона</documents>
   <documents>Document.ПродажаБилета</documents>
-  <documents>Document.УстановкаЦен</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
   <documents>Document.ШкалаБонуснойПрограммы</documents>
   <enums>Enum.ВидНоменклатуры</enums>
   <reports>Report.ПродажиПоАттракционам</reports>

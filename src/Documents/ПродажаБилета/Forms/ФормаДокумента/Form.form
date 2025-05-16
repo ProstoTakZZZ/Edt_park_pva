@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>ГруппаДатаНомер</name>
-    <id>24</id>
+    <id>26</id>
     <items xsi:type="form:FormField">
       <name>Номер</name>
       <id>1</id>
@@ -90,11 +90,11 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Группа дата номер</value>
+      <value>Группа1</value>
     </title>
     <extendedTooltip>
       <name>ГруппаДатаНомерРасширеннаяПодсказка</name>
-      <id>25</id>
+      <id>27</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -493,17 +493,15 @@
     <initialListView>Auto</initialListView>
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
-    <enableStartDrag>true</enableStartDrag>
-    <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>ГруппаЦенаСкидка</name>
-    <id>26</id>
+    <name>ГруппаБаллыСумма</name>
+    <id>22</id>
     <items xsi:type="form:FormField">
       <name>Скидка</name>
-      <id>21</id>
+      <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -518,7 +516,7 @@
       </handlers>
       <extendedTooltip>
         <name>СкидкаРасширеннаяПодсказка</name>
-        <id>23</id>
+        <id>21</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -528,7 +526,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СкидкаКонтекстноеМеню</name>
-        <id>22</id>
+        <id>20</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -546,11 +544,11 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаБаллыСумма</name>
-      <id>16</id>
+      <name>ГруппСумма</name>
+      <id>24</id>
       <items xsi:type="form:FormField">
         <name>СуммаДокумента</name>
-        <id>7</id>
+        <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -565,7 +563,7 @@
         </handlers>
         <extendedTooltip>
           <name>СуммаДокументаРасширеннаяПодсказка</name>
-          <id>9</id>
+          <id>12</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -575,7 +573,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>СуммаДокументаКонтекстноеМеню</name>
-          <id>8</id>
+          <id>11</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -599,11 +597,11 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Группа баллы сумма</value>
+        <value>Группа1</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаБаллыСуммаРасширеннаяПодсказка</name>
-        <id>17</id>
+        <name>ГруппСуммаРасширеннаяПодсказка</name>
+        <id>25</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -617,10 +615,8 @@
         <behavior>Auto</behavior>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
-        <backColor xsi:type="core:ColorDef">
-          <red>217</red>
-          <green>217</green>
-          <blue>217</blue>
+        <backColor xsi:type="core:ColorRef">
+          <color>Web.Gainsboro</color>
         </backColor>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
@@ -633,11 +629,11 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Группа цена скидка</value>
+      <value>Группа1</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЦенаСкидкаРасширеннаяПодсказка</name>
-      <id>27</id>
+      <name>ГруппаБаллыСуммаРасширеннаяПодсказка</name>
+      <id>23</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>

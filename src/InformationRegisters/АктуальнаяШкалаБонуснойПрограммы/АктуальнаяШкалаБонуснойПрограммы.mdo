@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e79a46e8-5a98-432e-9fb9-0da710559872">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2279f3cd-2419-4392-9fb8-f2cbdee4f1ef">
   <producedTypes>
-    <selectionType typeId="45ec560a-2ae6-4eef-9de7-7b77227b986b" valueTypeId="70af82fb-b50e-4c8a-86df-bc822854dbe4"/>
-    <listType typeId="131262e3-7bbe-4195-b8a1-5d9c3aa60431" valueTypeId="aef2797d-ad30-4f51-bc7c-106adfc8eeba"/>
-    <managerType typeId="ada2f877-b4aa-4b81-bb0e-98c12ac9c000" valueTypeId="9e516f01-cf6f-48ba-96f7-cefff9625a7a"/>
-    <recordSetType typeId="7447b28f-52f4-49ea-9fc9-efe71d60dd6f" valueTypeId="bbda2f67-3b3d-4244-aa72-b06d5b9ad44c"/>
-    <recordKeyType typeId="5f7a39f3-f264-4caf-af7f-a08901a3a2ad" valueTypeId="0de0df55-1cb0-4a75-9b8a-28c2bc5af97a"/>
-    <recordType typeId="570b2c45-b1b3-4ef1-bb3a-0e5461d84d7e" valueTypeId="f5d56331-dad3-41b6-8efa-d45f85b45406"/>
-    <recordManagerType typeId="4b4583c7-0183-49ce-ac9a-90ca52ed4deb" valueTypeId="b2f7d484-84a3-4e18-ae47-756a381ba4e9"/>
+    <selectionType typeId="b40e994e-fa3c-43f8-a964-ad1376ac9bdf" valueTypeId="a4faf926-b5fb-4cd7-b3a8-1d491bafceb8"/>
+    <listType typeId="174ce113-a27a-47b2-89f4-eefee739561d" valueTypeId="0b5ef1a7-0ce0-4361-b8e7-8dd11e5675ad"/>
+    <managerType typeId="1408c419-3cc9-41da-ab74-e0fa7cb3beba" valueTypeId="e8ca7aa1-b302-4405-99a0-4bd6175e4a6a"/>
+    <recordSetType typeId="94d6c191-b18f-47aa-a257-f26a8891358d" valueTypeId="76c3d2f5-79a7-4ae6-b432-bd82a4d2cbc9"/>
+    <recordKeyType typeId="0538b9ad-64a0-49ab-a9ed-1158f2726602" valueTypeId="0a8430e5-f488-40a1-bde4-6f613e3d869b"/>
+    <recordType typeId="1e4843c8-6f5a-452b-97b2-c107e6ade086" valueTypeId="d61b68b4-febd-4c61-82a3-977593949871"/>
+    <recordManagerType typeId="9c4f43c6-867d-458d-8e82-3a364a8de70f" valueTypeId="b49fd315-9333-4e4f-8cbb-e188de0a8b68"/>
   </producedTypes>
   <name>АктуальнаяШкалаБонуснойПрограммы</name>
   <synonym>
@@ -19,7 +19,7 @@
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="3ad9daad-fdcf-45c3-823f-da208884c48d">
+  <resources uuid="4c84256d-a9a5-440e-a3b5-7df9645de048">
     <name>Шкала</name>
     <synonym>
       <key>ru</key>

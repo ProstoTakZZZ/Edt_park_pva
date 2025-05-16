@@ -121,7 +121,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>СуммаДокумента</name>
+      <name>Клиент</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -129,10 +129,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.СуммаДокумента</segments>
+        <segments>Список.Клиент</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СуммаДокументаРасширеннаяПодсказка</name>
+        <name>КлиентРасширеннаяПодсказка</name>
         <id>24</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -142,7 +142,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СуммаДокументаКонтекстноеМеню</name>
+        <name>КлиентКонтекстноеМеню</name>
         <id>23</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -157,7 +157,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Клиент</name>
+      <name>БаллыКСписанию</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -165,10 +165,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Клиент</segments>
+        <segments>Список.БаллыКСписанию</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КлиентРасширеннаяПодсказка</name>
+        <name>БаллыКСписаниюРасширеннаяПодсказка</name>
         <id>27</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -178,7 +178,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КлиентКонтекстноеМеню</name>
+        <name>БаллыКСписаниюКонтекстноеМеню</name>
         <id>26</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -193,7 +193,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>БаллыКСписанию</name>
+      <name>СуммаДокумента</name>
       <id>28</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -201,10 +201,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.БаллыКСписанию</segments>
+        <segments>Список.СуммаДокумента</segments>
       </dataPath>
       <extendedTooltip>
-        <name>БаллыКСписаниюРасширеннаяПодсказка</name>
+        <name>СуммаДокументаРасширеннаяПодсказка</name>
         <id>30</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -214,7 +214,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>БаллыКСписаниюКонтекстноеМеню</name>
+        <name>СуммаДокументаКонтекстноеМеню</name>
         <id>29</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -378,6 +378,7 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
+    <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
     <rowPictureDataPath xsi:type="form:DataPath">
       <segments>Список.DefaultPicture</segments>

@@ -19,7 +19,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>e1fc2d06-0f02-4f34-975d-8b94f2060b5c</id>
+		<id>8175093f-afbf-427a-81b3-a06f68ff9591</id>
 		<size>2</size>
 		<columnsItem>
 			<index>0</index>
@@ -35,7 +35,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>633a440a-7e87-4765-9a7c-ce8d1e3e2643</id>
+		<id>51731a52-0254-40ef-9fb8-b2f76537bb6d</id>
 		<size>4</size>
 		<columnsItem>
 			<index>0</index>
@@ -71,7 +71,7 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<columnsID>e1fc2d06-0f02-4f34-975d-8b94f2060b5c</columnsID>
+			<columnsID>8175093f-afbf-427a-81b3-a06f68ff9591</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -88,21 +88,15 @@
 	</rowsItem>
 	<rowsItem>
 		<index>2</index>
+		<indexTo>3</indexTo>
 		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>3</index>
-		<row>
-			<columnsID>633a440a-7e87-4765-9a7c-ce8d1e3e2643</columnsID>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>4</index>
 		<row>
-			<columnsID>633a440a-7e87-4765-9a7c-ce8d1e3e2643</columnsID>
+			<columnsID>51731a52-0254-40ef-9fb8-b2f76537bb6d</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -131,7 +125,7 @@
 	<rowsItem>
 		<index>5</index>
 		<row>
-			<columnsID>633a440a-7e87-4765-9a7c-ce8d1e3e2643</columnsID>
+			<columnsID>51731a52-0254-40ef-9fb8-b2f76537bb6d</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -139,7 +133,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Количество посещений:</v8:content>
+							<v8:content>Количеество посещений:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -155,7 +149,7 @@
 	<rowsItem>
 		<index>6</index>
 		<row>
-			<columnsID>633a440a-7e87-4765-9a7c-ce8d1e3e2643</columnsID>
+			<columnsID>51731a52-0254-40ef-9fb8-b2f76537bb6d</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -170,7 +164,7 @@
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
@@ -205,8 +199,7 @@
 		</area>
 	</namedItem>
 	<font faceName="Arial" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-	<font faceName="Arial" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="14" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<width>16</width>
 	</format>
@@ -214,7 +207,7 @@
 		<width>640</width>
 	</format>
 	<format>
-		<width>128</width>
+		<width>162</width>
 	</format>
 	<format>
 		<width>144</width>
@@ -246,9 +239,25 @@
 		<font>1</font>
 	</format>
 	<format>
-		<font>2</font>
+		<width>144</width>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<width>144</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Block</textPlacement>
+		<fillType>Parameter</fillType>
+		<format/>
+		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
 		<autoIndent>0</autoIndent>
 	</format>
 	<format>
@@ -262,12 +271,6 @@
 				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
-		<autoIndent>0</autoIndent>
-	</format>
-	<format>
-		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
 		<autoIndent>0</autoIndent>
 	</format>
 </document>

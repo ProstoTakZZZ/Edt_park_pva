@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c4f033c-daad-4ba4-9fd5-869078bb0255">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4db49704-cbfd-4367-8c20-1705892e4e60">
   <producedTypes>
-    <objectType typeId="e779acdc-3130-4bfc-89d8-4ad49b11e135" valueTypeId="60848423-ec0f-4239-a2df-233bda849630"/>
-    <refType typeId="d12d5f00-3d5f-46e2-a20a-41ce1a1393fe" valueTypeId="9355766f-b3cc-42a2-91b7-e763fcc2cc75"/>
-    <selectionType typeId="abba2062-bf7c-46a7-92ac-faff9665dedd" valueTypeId="948e2c42-5799-4cec-bf18-624ccf79c8c3"/>
-    <listType typeId="baf07283-6a69-4894-a54d-04cad4357a53" valueTypeId="ae4aa3fa-1130-4aa4-a2d2-798084f0e5be"/>
-    <managerType typeId="dd9b4bc5-3929-4fa0-9119-88440385a06c" valueTypeId="efcab47d-b48b-4933-ba76-8f15308c1cbb"/>
+    <objectType typeId="85a43daf-b806-4fc8-85cb-83c98fba2f27" valueTypeId="40c2c33e-491d-4991-b1f7-b26079dbf182"/>
+    <refType typeId="90a27c37-8dab-43e4-a5f4-58d2127e009f" valueTypeId="c293ca83-588c-4a91-a5ca-90bc1b05fd1f"/>
+    <selectionType typeId="f0066c8e-3b07-413b-a10b-a4fa918d5394" valueTypeId="29a187c2-b17d-40fa-8444-265634b96f53"/>
+    <listType typeId="d465f70f-0f40-4139-b39a-e05fbb43823a" valueTypeId="99e3adca-2953-4a66-a686-73ebee50bb19"/>
+    <managerType typeId="679cd287-90f7-4bb4-802d-1d5711a1ead7" valueTypeId="c1d2e2fb-746f-421b-acfc-cbd052edcad5"/>
   </producedTypes>
   <name>Клиенты</name>
   <synonym>
@@ -13,8 +13,6 @@
     <value>Клиенты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Клиенты.Attribute.Телефон</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
@@ -26,7 +24,7 @@
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>50</codeLength>
+  <codeLength>9</codeLength>
   <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
@@ -35,7 +33,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="2d3e2cbb-cd8c-4b5d-bd9a-fc25d5bf896a">
+  <attributes uuid="eccafab7-7109-446e-972e-4c1193361b82">
     <name>Телефон</name>
     <synonym>
       <key>ru</key>
@@ -44,7 +42,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>150</length>
+        <length>20</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
