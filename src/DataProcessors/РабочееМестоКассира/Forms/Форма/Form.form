@@ -11,6 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Клиент</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>КлиентПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>КлиентРасширеннаяПодсказка</name>
       <id>3</id>
@@ -768,6 +772,10 @@
     <autoMaxHeight>true</autoMaxHeight>
     <horizontalStretch>true</horizontalStretch>
     <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <handlers>
+        <event>URLProcessing</event>
+        <name>ДекорацияБаллыКлиентаОбработкаНавигационнойСсылки</name>
+      </handlers>
       <horizontalAlign>Left</horizontalAlign>
       <backColor xsi:type="core:ColorRef">
         <color>Style.ToolTipBackColor</color>
